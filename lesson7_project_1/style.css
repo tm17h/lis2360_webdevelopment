@@ -1,0 +1,143 @@
+@charset "UTF-8";
+		/* Name: Thomas Martin */
+        /* Date of Completion: April 8, 2019 */
+
+
+body {
+	font-family: Times, serif, Helvetica;
+	font-size: 15px;
+	line-height: 1.9em;
+	color: #BEC1E8;
+	background-color: #FFFFFF;
+	padding: 0 45px;
+	margin: 0;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.095em;
+	color: #000000;
+}
+h1 {
+	font-size: 27px;
+	padding: 5px 5px 5px 5px;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 3em;
+	color: #BEC1E8;
+}
+h2 {
+	font-size: 25px;
+	padding: 6px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bolder;
+	color: #000000;
+	text-decoration: underline;
+}
+a:visited {
+	font-weight: bolder;
+	color: #BEC1E8;
+	text-decoration: blink;
+}
+a:hover {
+	color: #000000;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	list-style-image: url(images/star.png);
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+	font-family: cursive;
+	letter-spacing: 0.8em;
+	text-decoration: underline
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: double #FFFFFF 3px;
+}
+td {
+	padding: 8px;
+	border: solid #FFFFFF 2px;
+}
+th {
+	font-weight: inherit;
+	background-color: #BEC1E8;
+	text-align: center;
+	padding: 6px;
+	border: solid #FFFFFF 2px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: solid #FFFFFF 0.2px;
+	
+}
+
+img {
+	border: dotted #FFFFFF 2px;
+	padding: 10px 10px 10px 10px;
+	margin: 10px;
+	border-color: #BEC1E8;
+}
+
+iframe {
+	border: solid #FFFFFF 2px;
+	
+}
+
+/*DIV STYLES FOR PAGE LAYOUT */
+
+#container {
+	width: 950px;
+	margin: 0 auto;
+	padding: 20px 40px 20px 40px; 
+	border: 0px solid #BEC1E8;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+#header {
+	width: 100%;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #000000
+	padding-bottom: 40px;
+}
+#content {
+	width: 600px;
+	padding-bottom: 50px;
+	float: left; 
+}
+#sidebar {
+	width: 277px;
+	float: left; 
+	margin-top: 50px;
+	margin-right: 23px;
+}
+#sidebar p {
+	padding: 10px;
+	background: #BEC1E8;
+	border: 1px solid #FFFFFF;
+	float: right;
+	box-shadow: 10px 10px 5px #BEC1E8
+}
+#footer {
+	clear: both;
+	width: 100%;
+	background-color: #BEC1E8;
+	border: 2px solid #FFFFFF;
+}
+#footer p {
+	margin: 0 auto;
+	padding: 35 px;
+}
