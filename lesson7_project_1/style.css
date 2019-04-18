@@ -44,7 +44,7 @@ a:link {
 }
 a:visited {
 	font-weight: bolder;
-	color: #BEC1E8;
+	color: #000000;
 	text-decoration: blink;
 }
 a:hover {
@@ -102,7 +102,7 @@ iframe {
 #container {
 	width: 950px;
 	margin: 0 auto;
-	padding: 20px 40px 20px 40px; 
+	padding: 20px;
 	border: 0px solid #BEC1E8;
 	background-color: #FFFFFF;
 	overflow: hidden;
@@ -110,7 +110,6 @@ iframe {
 #header {
 	width: 100%;
 	background-color: #FFFFFF;
-	border-bottom: 1px solid #000000
 	padding-bottom: 40px;
 }
 #content {

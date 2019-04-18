@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#splash{
+    height: 1000px;
+    background: url(images.jpg) no-repeat center top fixed;
+    background-size: cover;
+}    
+#overview{
+    background-color: #E39E8A;
+    height: 1000px;
+}   
+#video{
+    background-color: #CDD6C0;
+    height: 1000px;
+}   
+#discography{
+    background-color: #7280AB;
+    height: 1000px;
+}    
+#footer{
+    background-color: #CED7D9;
+    height: 1000px;
+}
